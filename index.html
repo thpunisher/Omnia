@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omnia</title>
+  </head>
+
+  <body>
+    <!-- Apply cached theme before React mounts to prevent flash of wrong theme -->
+    <script>
+      (function(){try{var id=localStorage.getItem('omnia-theme')||'dark';var root=document.documentElement;root.setAttribute('data-theme',id);root.setAttribute('data-mode',id==='light'?'light':'dark');root.style.background=id==='light'?'#fafafa':'#0f0f0f';}catch(e){}})();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/app/main.tsx"></script>
+  </body>
+</html>

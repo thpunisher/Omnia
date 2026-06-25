@@ -1,0 +1,28 @@
+[package]
+name = "omnia"
+version = "0.1.0"
+description = "Omnia — a personal productivity workspace"
+authors = ["you"]
+edition = "2021"
+rust-version = "1.77.2"
+
+[lib]
+name = "omnia_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+tauri-plugin-sql = { version = "2", features = ["sqlite"] }
+sqlx = { version = "0.8", features = ["runtime-tokio", "sqlite"] }
+argon2 = { version = "0.5", features = ["std"] }
+uuid = { version = "1", features = ["v4"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["time", "rt"] }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

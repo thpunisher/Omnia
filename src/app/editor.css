@@ -1,0 +1,25 @@
+.CodeMirror {
+  background-color: transparent !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 16px !important;
+}
+
+.CodeMirror-lines {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.CodeMirror-line {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  line-height: 1.75 !important;
+}
+
+.editor-toolbar {
+  border-color: #262626 !important;
+}
+
+.CodeMirror-focused {
+  border: none !important;
+  outline: none !important;
+}
