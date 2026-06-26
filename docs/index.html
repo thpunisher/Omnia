@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Omnia documentation: user guide, setup, architecture, database, AI, themes, and contributor guides." />
+  <title>Omnia Documentation</title>
+  <link rel="icon" href="../public/tauri.svg" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <style>
+    :root {
+      --theme-color: #5e6ad2;
+      --base-font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --mono-font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+
+    body {
+      letter-spacing: 0;
+    }
+
+    .sidebar {
+      border-right: 1px solid #e8e8ef;
+    }
+
+    .app-name-link {
+      font-weight: 800;
+      color: #20233a;
+    }
+
+    .markdown-section {
+      max-width: 940px;
+      padding: 32px 32px 48px;
+    }
+
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3 {
+      color: #20233a;
+      letter-spacing: 0;
+    }
+
+    .markdown-section table {
+      display: table;
+      width: 100%;
+    }
+
+    .markdown-section code {
+      border-radius: 4px;
+    }
+
+    .markdown-section blockquote {
+      border-left-color: var(--theme-color);
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading Omnia documentation...</div>
+  <script>
+    window.$docsify = {
+      name: "Omnia",
+      repo: "https://github.com/thpunisher/omnia",
+      homepage: "README.md",
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      coverpage: true,
+      onlyCover: false,
+      search: {
+        maxAge: 86400000,
+        paths: "auto",
+        placeholder: "Search documentation",
+        noData: "No results found",
+        depth: 3
+      },
+      pagination: {
+        previousText: "Previous",
+        nextText: "Next",
+        crossChapter: true,
+        crossChapterText: true
+      },
+      copyCode: {
+        buttonText: "Copy",
+        errorText: "Error",
+        successText: "Copied"
+      }
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+* [Home](/)
+* [Setup](getting-started.md)
+* [User Guide](user-guide.md)
+* [Architecture](architecture.md)
+* [Contributing](contributing.md)
