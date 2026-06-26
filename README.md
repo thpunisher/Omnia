@@ -4,10 +4,10 @@
   <p><strong>A Notion-level personal productivity workspace built with Tauri, React, and SQLite.</strong></p>
   <p>Tasks · Notes · Calendar · Habits · Goals · Reminders · AI Assistant</p>
 
-  <a href="https://github.com/your-username/omnia/releases"><img src="https://img.shields.io/github/v/release/your-username/omnia?style=flat-square&color=5E6AD2" alt="Latest release" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/your-username/omnia?style=flat-square&color=5E6AD2" alt="License" /></a>
-  <a href="https://github.com/your-username/omnia/issues"><img src="https://img.shields.io/github/issues/your-username/omnia?style=flat-square&color=5E6AD2" alt="Open issues" /></a>
-  <a href="https://github.com/your-username/omnia/stargazers"><img src="https://img.shields.io/github/stars/your-username/omnia?style=flat-square&color=5E6AD2" alt="Stars" /></a>
+  <a href="https://github.com/thpunisher/omnia/releases"><img src="https://img.shields.io/github/v/release/thpunisher/omnia?style=flat-square&color=5E6AD2" alt="Latest release" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/thpunisher/omnia?style=flat-square&color=5E6AD2" alt="License" /></a>
+  <a href="https://github.com/thpunisher/omnia/issues"><img src="https://img.shields.io/github/issues/thpunisher/omnia?style=flat-square&color=5E6AD2" alt="Open issues" /></a>
+  <a href="https://github.com/thpunisher/omnia/stargazers"><img src="https://img.shields.io/github/stars/thpunisher/omnia?style=flat-square&color=5E6AD2" alt="Stars" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-5E6AD2?style=flat-square" alt="Contributions welcome" /></a>
 </div>
 
@@ -215,7 +215,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide. Quick version:
 3. Run `npm run build` to confirm no TypeScript errors
 4. Open a PR describing what you built and why
 
-**Good first issues** are tagged [`good first issue`](https://github.com/your-username/omnia/issues?q=label%3A%22good+first+issue%22) on GitHub.
+**Good first issues** are tagged [`good first issue`](https://github.com/thpunisher/omnia/issues?q=label%3A%22good+first+issue%22) on GitHub.
 
 ---
 
