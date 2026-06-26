@@ -215,7 +215,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide. Quick version:
 3. Run `npm run build` to confirm no TypeScript errors
 4. Open a PR describing what you built and why
 
-**Good first issues** are tagged [`good first issue`](https://github.com/your-username/omnia/issues?q=label%3A%22good+first+issue%22) on GitHub.
+**Good first issues** are tagged [`good first issue`](https://github.com/thpunisher/omnia/issues?q=label%3A%22good+first+issue%22) on GitHub.
 
 ---
 
