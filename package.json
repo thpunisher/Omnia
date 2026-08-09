@@ -46,7 +46,7 @@
     "react-dom": "^19.1.0",
     "react-hook-form": "^7.79.0",
     "react-markdown": "^10.1.0",
-    "react-router-dom": "^7.18.0",
+    "react-router-dom": "^7.18.2",
     "react-simplemde-editor": "^5.2.0",
     "remark-gfm": "^4.0.1",
     "shadcn": "^4.11.0",
